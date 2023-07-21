@@ -1,4 +1,4 @@
-### Some datafiles for perplexity testing
+### datafiles for hellaswag perplexity testing
 
 Extracted from [hellaswag_val.jsonl](https://github.com/rowanz/hellaswag/blob/master/data/hellaswag_val.jsonl):
 
