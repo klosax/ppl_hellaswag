@@ -12,14 +12,4 @@ Extracted from [hellaswag_val.jsonl](https://github.com/rowanz/hellaswag/blob/ma
 
 The following formula linearly correlates with HellaSwag scores at the [Open LLM Leaderboard](https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard).
 
-(26 models in correlation)
-
-Correlation at 200 lines: `y = 77.55 x + 23.46`
-</br>R2 = 0.8636
-
-Correlation at 400 lines: `y = 82.79 x + 27.06`
-</br>R2 = 0.9049
-
-where `x = (ppl_wrong – ppl_correct) / ppl_correct`
-
-![ppl_hellaswag_400](https://github.com/klosax/ppl_hellaswag/assets/131523366/06a6cfdc-f1b9-40c9-ba7c-df4950903525)
+`(ppl_wrong – ppl_correct) / ppl_correct`
