@@ -1,5 +1,3 @@
-![image](https://github.com/klosax/ppl_hellaswag/assets/131523366/f6751468-3e46-4996-9d31-7b07ef44142b)### datafiles for hellaswag perplexity testing
-
 Extracted from [hellaswag_val.jsonl](https://github.com/rowanz/hellaswag/blob/master/data/hellaswag_val.jsonl):
 
 - `hellaswag_val_correct.txt.200` - The first 200 contexts and the correct endings, one sentence per line.
