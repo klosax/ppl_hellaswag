@@ -1,4 +1,4 @@
-### datafiles for hellaswag perplexity testing
+![image](https://github.com/klosax/ppl_hellaswag/assets/131523366/f6751468-3e46-4996-9d31-7b07ef44142b)### datafiles for hellaswag perplexity testing
 
 Extracted from [hellaswag_val.jsonl](https://github.com/rowanz/hellaswag/blob/master/data/hellaswag_val.jsonl):
 
@@ -12,6 +12,14 @@ Extracted from [hellaswag_val.jsonl](https://github.com/rowanz/hellaswag/blob/ma
 - `ppl_correct` = Cumulative perplexity on each line of hellaswag_val_correct.txt
 - `ppl_wrong` = Cumulative perplexity on each line of hellaswag_val_wrong.txt
 
-Result of `(ppl_wrong - ppl_correct) / ppl_correct` linearly correlates with HellaSwag scores at the [Open LLM Leaderboard](https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard).
+The following formula linearly correlates with HellaSwag scores at the [Open LLM Leaderboard](https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard).
 
-Correlation (28 models tested): 200 lines R2=0.86 and 400 lines R2=0.91
+(28 models in correlation)
+
+Correlation at 200 lines: `y = 77.55 x + 23.46`
+R2 = 0.8636
+
+Correlation at 400 lines: `y = 82.79 x + 27.06`
+R2 = 0.9049
+
+where `x = (ppl_wrong – ppl_correct) / ppl_correct`
