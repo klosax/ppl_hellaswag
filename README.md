@@ -1,4 +1,4 @@
-Extracted from [hellaswag_val.jsonl](https://github.com/rowanz/hellaswag/blob/master/data/hellaswag_val.jsonl):
+Extracted from [hellaswag_val.jsonl](https://github.com/rowanz/hellaswag/blob/master/data/hellaswag_val.jsonl) (MIT license):
 
 - `hellaswag_val_correct.txt.X` - The first X contexts and the correct endings, one sentence per line.
 - `hellaswag_val_wrong.txt.X` - The first X contexts and the first wrong endings, one sentence per line.
