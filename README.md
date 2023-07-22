@@ -1,4 +1,6 @@
-Extracted from [hellaswag_val.jsonl](https://github.com/rowanz/hellaswag/blob/master/data/hellaswag_val.jsonl) (MIT license):
+For more information about the use of this dataset see discussion https://github.com/ggerganov/llama.cpp/discussions/2321.
+
+Dataset extracted from [hellaswag_val.jsonl](https://github.com/rowanz/hellaswag/blob/master/data/hellaswag_val.jsonl) (MIT license):
 
 - `hellaswag_val_correct.txt.X` - The first X contexts and the correct endings, one sentence per line.
 - `hellaswag_val_wrong.txt.X` - The first X contexts and the first wrong endings, one sentence per line.
