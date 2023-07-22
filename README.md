@@ -22,4 +22,4 @@ Correlation at 400 lines: `y = 82.79 x + 27.06`
 
 where `x = (ppl_wrong – ppl_correct) / ppl_correct`
 
-![ppl_hellaswag_200](https://github.com/klosax/ppl_hellaswag/assets/131523366/696d4d08-3c95-4b57-9add-5f1aa2043f8a)
+![ppl_hellaswag_400](https://github.com/klosax/ppl_hellaswag/assets/131523366/06a6cfdc-f1b9-40c9-ba7c-df4950903525)
